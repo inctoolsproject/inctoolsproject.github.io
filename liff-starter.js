@@ -20,7 +20,7 @@ function initializeApp(){
         var uriP = getParameterByName('uri');
         var uriz="line://shop/sticker/detail/"+pkg;
         var ep = '';
-        if (!uriP){
+        if (uriP===null){
         }else{
             uriz=uriP
         }
