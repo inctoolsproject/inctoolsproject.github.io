@@ -17,17 +17,25 @@ function initializeApp(){
         var stk = getParameterByName('tstk');
         var sid = getParameterByName('stkid');
         var pkg = getParameterByName('stkpkgid');
-        var uriP = getParameterByName('uri');
+        var send = getParameterByName('send');
         var uriz="line://shop/sticker/detail/"+pkg;
+        var tp="";
         var ep = '';
-        if (uriP===null){
-        }else{
-            uriz=uriP;
-        }
         if (stk === 'animasi') {
             ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker_animation@2x.png";
+            tp="a";
         } else {
             ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker@2x.png";
+            tp="n";
+        }
+        if (send===null){
+        }else{
+            if(send===true || send==="true")
+                if(tp==="a"){
+                    uriz="line://app/1600328768-y3yq64nw/?type=sticker&tstk=animasi&stkid="+sid+"&stkpkgid="+pkg+"&send=true";
+                }else{
+                    uriz="line://app/1600328768-y3yq64nw/?type=sticker&tstk=anime&stkid="+sid+"&stkpkgid="+pkg+"&send=true";
+                }
         }
         liff.sendMessages([{
           type: "template",
