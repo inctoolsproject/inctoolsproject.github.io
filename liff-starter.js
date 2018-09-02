@@ -14,9 +14,9 @@ function initializeApp(){
     if (type=== "text") {
         liff.sendMessages([{type: 'text',text: getParameterByName('text')}]).then(function () {liff.closeWindow()});
     }else if(type=="sticker"){
-        var stk = getParameterByName('stk');
-        var sid = getParameterByName('sid');
-        var pkg = getParameterByName('pkg');
+        var stk = getParameterByName('typesticker');
+        var sid = getParameterByName('stkid');
+        var pkg = getParameterByName('stkpkgid');
         var ep = '';
         if (stk === 'anim') {
             ep = "/IOS/sticker_animation@2x.png";
