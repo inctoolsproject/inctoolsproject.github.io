@@ -22,7 +22,7 @@ function initializeApp(){
         var ep = '';
         if (uriP===null){
         }else{
-            uriz=uriP
+            uriz=uriP;
         }
         if (stk === 'animasi') {
             ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker_animation@2x.png";
