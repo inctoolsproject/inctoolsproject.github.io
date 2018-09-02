@@ -17,8 +17,14 @@ function initializeApp(){
         var stk = getParameterByName('tstk');
         var sid = getParameterByName('stkid');
         var pkg = getParameterByName('stkpkgid');
+        var returnValue = getParameterByName('uri');
+        var uriz="line://shop/sticker/detail/"+pkg;
         var ep = '';
-        if (stk === 'anim') {
+        if (!returnValue){
+        }else{
+            uriz=returnValue
+        }
+        if (stk === 'animasi') {
             ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker_animation@2x.png";
         } else {
             ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker@2x.png";
@@ -32,7 +38,7 @@ function initializeApp(){
                  imageUrl: ep,
                  action: {
                      type: "uri",
-                     uri: "line://shop/sticker/detail/"+pkg}}
+                     uri: uriz}}
                           ]
                         }
         }]).then(function () {
