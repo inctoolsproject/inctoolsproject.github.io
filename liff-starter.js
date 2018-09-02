@@ -14,14 +14,14 @@ function initializeApp(){
     if (type=== "text") {
         liff.sendMessages([{type: 'text',text: getParameterByName('text')}]).then(function () {liff.closeWindow()});
     }else if(type=="sticker"){
-        var stk = getParameterByName('typesticker');
+        var stk = getParameterByName('tstk');
         var sid = getParameterByName('stkid');
         var pkg = getParameterByName('stkpkgid');
         var ep = '';
         if (stk === 'anim') {
-            ep = "/IOS/sticker_animation@2x.png";
+            ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker_animation@2x.png";
         } else {
-            ep = "/IOS/sticker@2x.png";
+            ep = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker@2x.png";
         }
         liff.sendMessages([{
           type: "template",
@@ -29,7 +29,7 @@ function initializeApp(){
           template: {
              type: "image_carousel",
              columns: [{
-                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+ep,
+                 imageUrl: ep,
                  action: {
                      type: "uri",
                      uri: "line://shop/sticker/detail/"+pkg}}
