@@ -60,7 +60,7 @@ function initializeApp(){
         }]).then(function () {
             liff.closeWindow();
         });
-    }else if (tipe === 'image') {
+    }else if (type === 'image') {
         liff.sendMessages([{
             type: 'image',
             originalContentUrl: getParameterByName('img'),
@@ -68,7 +68,7 @@ function initializeApp(){
         }]).then(function () {
             liff.closeWindow();
         });
-    }else if (tipe === 'video') {
+    }else if (type === 'video') {
         liff.sendMessages([{
             type: 'video',
             originalContentUrl: getParameterByName('ocu'),
