@@ -114,7 +114,7 @@ body {
 
 .button1 {
     background-color: #cccccc;
-    color: white;
+    color: black;
     width: 250px;
     border-radius: 6px;
     border: 2px solid #cccccc;
@@ -122,7 +122,7 @@ body {
 
 .button1:hover {
     background-color: transparent;
-    color: black;
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
