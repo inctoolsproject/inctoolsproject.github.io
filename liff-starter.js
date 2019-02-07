@@ -18,7 +18,7 @@ function getP(){
         document.getElementById('imagex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=image&img=https://wallpaperstudio10.com/static/wpdb/wallpapers/1000x563/168891.jpg\n\ntype => image\nimg => Link (must be HTTPS)'
+                text: 'line://app/1643532430-zdredkAG?type=image&img=https://www.crackbot.us/images/1540203011314-1.jpg\n\ntype => image\nimg => Link (must be HTTPS)'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=video&ocu=https://bit.ly/2Geqprt&piu=https://images6.alphacoders.com/710/thumb-350-710132.png\n\ntype => video\nocu => video url\npiu => preview image'
+                text: 'line://app/1643532430-zdredkAG?type=video&ocu=https://goo.gl/5bJq6M&piu=https://www.crackbot.us/images/1540203011314-1.jpg\n\ntype => video\nocu => video url\npiu => preview image'
             }]).then(function () {
                 liff.closeWindow();
             });
