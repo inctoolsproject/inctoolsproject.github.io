@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=video&ocu=https://tinyurl.com/y8og3or5&piu=https://images6.alphacoders.com/710/thumb-350-710132.png\n\ntype => video\nocu => video url\npiu => preview image'
+                text: 'line://app/1643532430-zdredkAG?type=video&ocu=https://bit.ly/2Geqprt&piu=https://images6.alphacoders.com/710/thumb-350-710132.png\n\ntype => video\nocu => video url\npiu => preview image'
             }]).then(function () {
                 liff.closeWindow();
             });
