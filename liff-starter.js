@@ -47,6 +47,14 @@ function getP(){
                 liff.closeWindow();
             });
         });
+        document.getElementById('profilex').addEventListener('click', function () {
+            liff.sendMessages([{
+                type: 'text',
+                text: 'line://app/1643532430-zdredkAG?type=profile'
+            }]).then(function () {
+                liff.closeWindow();
+            });
+        });
     } else {
         makeText();
         makeImage();
@@ -182,7 +190,7 @@ function meProfile(){
                         {
                             type:"uri",
                             label:"Me",
-                            uri:"line://app/1602687308-GXq4Vvk9?type=profile"
+                            uri:"line://app/1643532430-zdredkAG?type=profile"
                         }
                     ]
                 }
