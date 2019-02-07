@@ -43,25 +43,25 @@ body {
 }
 
 .button6 {
-    background-color: #212121;
-    color: blue;
+    background-color: #a5a5a5;
+    color: black;
     width: 250px;
     border-radius: 6px;
-    border: 2px solid #212121;
+    border: 2px solid #a5a5a5;
 }
 
 .button6:hover {
     background-color: transparent;
-    color: black;
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .button5 {
-    background-color: #3f3f3f;
+    background-color: #a5a5a5;
     color: black;
     width: 250px;
     border-radius: 6px;
-    border: 2px solid #3f3f3f;
+    border: 2px solid #a5a5a5;
 }
 
 .button5:hover {
@@ -71,16 +71,16 @@ body {
 }
 
 .button4 {
-    background-color: #555555;
-    color: white;
+    background-color: #a5a5a5;
+    color: black;
     width: 250px;
     border-radius: 6px;
-    border: 2px solid #555555;
+    border: 2px solid #a5a5a5;
 }
 
 .button4:hover {
     background-color: transparent;
-    color: black;
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -100,7 +100,7 @@ body {
 
 .button2 {
     background-color: #a5a5a5;
-    color: white;
+    color: black;
     width: 250px;
     border-radius: 6px;
     border: 2px solid #a5a5a5;
@@ -108,16 +108,16 @@ body {
 
 .button2:hover {
     background-color: transparent;
-    color: black;
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .button1 {
-    background-color: #cccccc;
+    background-color: #a5a5a5;
     color: black;
     width: 250px;
     border-radius: 6px;
-    border: 2px solid #cccccc;
+    border: 2px solid #a5a5a5;
 }
 
 .button1:hover {
