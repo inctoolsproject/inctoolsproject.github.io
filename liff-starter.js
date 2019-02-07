@@ -42,7 +42,7 @@ function getP(){
         document.getElementById('stickerx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'With Animation: \nline://app/1643532430-zdredkAG?type=sticker&stk=anim&sid=32128231&pkg=3099312\n\nNo Animation: \nline://app/1643612142-oBOXxnOW?type=sticker&stk=noanim&sid=32128231&pkg=3099312\n\ntype => sticker\nstk => anim / noanim\nsid => sticker id\npkg => packages id'
+                text: 'With Animation: \nline://app/1643532430-zdredkAG?type=sticker&stk=anim&sid=32128231&pkg=3099312\n\nNo Animation: \nline://app/1643532430-zdredkAG?type=sticker&stk=noanim&sid=32128231&pkg=3099312\n\ntype => sticker\nstk => anim / noanim\nsid => sticker id\npkg => packages id'
             }]).then(function () {
                 liff.closeWindow();
             });
