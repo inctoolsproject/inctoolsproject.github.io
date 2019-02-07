@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=audio&link=https://platelets.fun/public/sounds/music.mp3'
+                text: 'line://app/1643532430-zdredkAG?type=audio&link=https://moepoi.xyz/audio/soundtrack?file=QcgmXm8kg__mTCESSzPZSw.opus'
             }]).then(function () {
                 liff.closeWindow();
             });
