@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=text&text=Your%20text\n\ntype => text\ntext => your text'
+                text: 'line://app/1557852703-7K9RBxmM?type=text&text=Your%20text\n\ntype => text\ntext => your text'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -18,7 +18,7 @@ function getP(){
         document.getElementById('imagex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=image&img=https://www.crackbot.us/images/1540203011314-1.jpg\n\ntype => image\nimg => Link (must be HTTPS)'
+                text: 'line://app/1557852703-7K9RBxmM?type=image&img=https://raw.githubusercontent.com/inctoolsproject/inctoolsproject.github.io/master/20190323_002738.jpg\n\ntype => image\nimg => Link (must be HTTPS)'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=video&ocu=https://goo.gl/5bJq6M&piu=https://www.crackbot.us/images/1540203011314-1.jpg\n\ntype => video\nocu => video url\npiu => preview image'
+                text: 'line://app/1557852703-7K9RBxmM?type=video&ocu=https://goo.gl/5bJq6M&piu=https://raw.githubusercontent.com/inctoolsproject/inctoolsproject.github.io/master/20190323_002738.jpg\n\ntype => video\nocu => video url\npiu => preview image'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=audio&link=https://moepoi.xyz/audio/soundtrack?file=QcgmXm8kg__mTCESSzPZSw.opus'
+                text: 'line://app/1557852703-7K9RBxmM?type=audio&link=https://moepoi.xyz/audio/soundtrack?file=QcgmXm8kg__mTCESSzPZSw.opus'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -42,7 +42,7 @@ function getP(){
         document.getElementById('stickerx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'With Animation: \nline://app/1643532430-zdredkAG?type=sticker&stk=anim&sid=32128231&pkg=3099312\n\nNo Animation: \nline://app/1643532430-zdredkAG?type=sticker&stk=noanim&sid=32128231&pkg=3099312\n\ntype => sticker\nstk => anim / noanim\nsid => sticker id\npkg => packages id'
+                text: 'With Animation: \nline://app/1557852703-7K9RBxmM?type=sticker&stk=anim&sid=32128231&pkg=3099312\n\nNo Animation: \nline://app/1557852703-7K9RBxmM?type=sticker&stk=noanim&sid=32128231&pkg=3099312\n\ntype => sticker\nstk => anim / noanim\nsid => sticker id\npkg => packages id'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -50,7 +50,7 @@ function getP(){
         document.getElementById('profilex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=profile'
+                text: 'line://app/1557852703-7K9RBxmM?type=profile'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -190,7 +190,7 @@ function meProfile(){
                         {
                             type:"uri",
                             label:"Me",
-                            uri:"line://app/1643532430-zdredkAG?type=profile"
+                            uri:"line://app/1557852703-7K9RBxmM?type=profile"
                         }
                     ]
                 }
